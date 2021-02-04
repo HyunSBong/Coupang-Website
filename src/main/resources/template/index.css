@@ -1,0 +1,127 @@
+body {
+    font: 14px/1.8 Arial, Helvetica, sans-serif;
+}
+
+a, address {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+}
+
+.frame {
+    margin: 0 auto;
+}
+
+.top-header {
+    height: 32px;
+}
+
+#top-bar {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    background-color: #f0f0f0;
+}
+
+.mid-header {
+    overflow: hidden;
+    height: 115px;
+    width: 1020px;
+}
+
+.nav {
+    float: left;
+    height: 115px;
+    width: 110px;
+    background-image: url("images/header_menu_img.png");
+    background-size: cover;
+    margin-right: 30px;
+}
+
+.logo {
+    float: left;
+    height: 41px;
+    width: 174px;
+    background-image: url("images/logo_coupang_w350.png");
+    background-size: cover;
+    margin-top: 27px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.top-searchbar {
+    float: left;
+    height: 38px;
+    width: 522px;
+    border: 2px solid #4e86ec;
+    background: #ffffff;
+    margin-top: 27px;
+}
+#input-top-searchbar {
+    float: left;
+    font-size: 16px;
+    width: 350px;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+}
+#top_search_btn {
+    float: right;
+    width: 50px;
+    height: 100%;
+    border: 0px;
+    background: #4e86ec;
+    outline: none;
+    color: #ffffff;
+}
+
+.hearder-menu {
+    width: 880px;
+    height: 32px;
+}
+
+.footer-layer1 {
+    text-align: center;
+    border-top: 1px solid #aaa;
+    margin: 0px 0px 0;
+    padding: 0px 14px;
+    font-size: 12px;
+}
+
+.footer-layer2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid #aaa;
+    margin: 0px 0px 0;
+    padding: 0px 207px;
+    font-size: 12px;
+}
+.footer-layer-img {
+    grid-column: 1;
+}
+.footer-contnent {
+    grid-column: 2;
+}
+.contact-info {
+    grid-column: 3;
+}
+.safe-service {
+    grid-column: 4;
+}
+
+.footer-certification {
+    border-top: 1px solid #aaa;
+    margin: 0px 207px 0;
+    font-size: 12px;
+}
+
+.footer-copyright {
+    border-top: 1px solid #aaa;
+    margin: 0px 0px 0;
+    padding-left: 228px;
+    font-size: 9px;
+    color: #888888;
+    background-color: #333333;
+}
+
+/* 1425 968 26 */
