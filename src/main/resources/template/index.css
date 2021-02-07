@@ -18,8 +18,9 @@ a, address {
 }
 
 #top-bar {
-    display: flex;
+    /* display: flex; */
     align-items: center;
+    text-align: center;
     height: 32px;
     background-color: #f0f0f0;
 }
@@ -28,6 +29,7 @@ a, address {
     overflow: hidden;
     height: 115px;
     width: 1020px;
+    margin: 0 auto;
 }
 
 .nav {
@@ -51,7 +53,7 @@ a, address {
 }
 .top-searchbar {
     float: left;
-    height: 38px;
+    height: 41px;
     width: 522px;
     border: 2px solid #4e86ec;
     background: #ffffff;
@@ -75,9 +77,47 @@ a, address {
     color: #ffffff;
 }
 
+.mycoupang {
+    float: left;
+    width: 50px;
+    height: 70px;
+    margin-top: 18px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+#mycoupang_logo {
+    margin-top: 6px;
+}
+#mycoupang_text {
+    margin-top: 0;
+}
+.shoppingbag {
+    float: left;
+    width: 50px;
+    height: 70px;
+    margin-top: 18px;
+    margin-left:20px;
+    margin-right: 9px;
+    text-align: center;
+    font-size: 12px;
+}
+#shoppingbag_text {
+    margin-top: 0;
+}
+
 .hearder-menu {
     width: 880px;
     height: 32px;
+    /* margin-left: 30px; */
+}
+#menu_list {
+    font-size: 12px;
+    align-items: center;
+}
+#new_icon {
+    width: 13px;
+    height: 13px;
 }
 
 .footer-layer1 {
@@ -123,5 +163,3 @@ a, address {
     color: #888888;
     background-color: #333333;
 }
-
-/* 1425 968 26 */
