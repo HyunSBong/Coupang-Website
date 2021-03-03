@@ -17,18 +17,23 @@ a, address {
     height: 32px;
 }
 
-#top-bar {
-    /* display: flex; */
-    align-items: center;
-    text-align: center;
+.top-bar-bg {
     height: 32px;
     background-color: #f0f0f0;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    width: 1020px;
+    margin: 0 auto;
 }
 
 .mid-header {
     overflow: hidden;
     height: 115px;
-    width: 1020px;
+    width: 1020px; 
     margin: 0 auto;
 }
 
@@ -163,3 +168,5 @@ a, address {
     color: #888888;
     background-color: #333333;
 }
+
+/* 1425 968 26 */
